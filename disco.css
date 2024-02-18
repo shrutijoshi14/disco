@@ -1,0 +1,42 @@
+body {
+    background: #030303;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    background: #504f4f;
+    color: rgb(227, 224, 224);
+    border-radius: 10px;
+    font-family: cursive;
+    /* animation-name: disco;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; */
+}
+
+@keyframes disco {
+    0% {
+        background: #504f4f;
+    }
+
+    25% {
+        background: #00ff00;
+    }
+
+    50% {
+        background: #ff0000;
+    }
+
+    75% {
+        background: #ffff00;
+    }
+
+    100% {
+        background: #504f4f;
+    }
+}
